@@ -10,6 +10,10 @@ family = "Zed Mono"
 spacing = "normal"
 serifs = "sans"
 no-cv-ss = false
+export-glyph-names = true
+
+  [buildPlans.zed-mono.ligations]
+  inherits = "dlig"
 
   [buildPlans.zed-mono.variants]
   inherits = "ss08"
